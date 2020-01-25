@@ -1,0 +1,187 @@
+body {
+	margin: 0px;
+	font-family: Geneva, Helvetica, sans-serif;
+}
+
+header {
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+	align-items: center;
+}
+
+.top {
+	background-image: url(img/alps-altitude-bird-s-eye-view-2013658.png);
+	background-position: center;
+	background-size: 100%;
+	height: 800px;
+	margin: 0px;
+}
+
+.middletop {
+	background-color: rgb(78,146,217);
+	height: 220px;
+	color: white;
+	text-align: center;
+	font-size: 22px;
+	padding: 20px 150px 50px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 30px;
+	font-style: bold;
+}
+
+.cc {
+	text-align: center;
+	font-size: 22px;
+	font-style: normal;
+}
+
+.middle {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 50px 50px 10px;
+	color: rgb(78,146,217);
+}
+
+.container {
+    display: grid;
+	grid-template-rows: 400px 400px 400px;
+	grid-template-columns: 400px 400px 400px;
+	grid-row-gap: 7px;
+	grid-column-gap: 7px;
+	margin: 50px;
+}
+
+.cottage {
+	grid-row: 1 / span 1;
+	grid-column: 1 / span 1;
+	background-image: url(img/cold-daylight-fjord-1586298.png);
+	background-size: 120%;
+	background-position: center;
+}
+
+.wolf {
+	grid-row: 1 / span 1;
+	grid-column: 2 / span 2;
+	background-image: url(img/adorable-animal-breed-434090.png);
+	background-size: 120%;
+}
+
+.turndown {
+	grid-row: 2 / span 2;
+	grid-column: 1 / span 2;
+	background-image: url(img/action-active-cold-2433353.png);
+	background-size: 110%;
+}
+
+#check {
+	text-decoration: none;
+	border: 2px solid white;
+	border-radius: 20px;
+	margin: 10px;
+	padding: 7px 20px;
+	height: 40px;
+	width: 120px;
+	font-size: 18px;
+	color: white;
+}
+
+.turndowntext {
+	grid-row: 2 / span 2;
+	grid-column: 1 / span 2;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	line-height: 40px;
+	padding: 360px 120px;
+	background-color: rgba(78,146,217,0.5);
+}
+
+.man {
+	grid-row: 2 / span 1;
+	grid-column: 3 / span 1;
+	background-image: url(img/adventure-adventurer-altitude-2577274.png);
+	background-size: 110%;
+	background-position: center;
+}
+
+.cross {
+	grid-row: 3 / span 1;
+	grid-column: 3 / span 1;
+	background-image: url(img/beatiful-landscape-cold-colors-2832052.png);
+	background-size: 120%;
+	background-position: center;
+}
+
+.bottom {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 50px 360px;
+	color: rgb(78,146,217);
+	border: 2px solid black;
+	padding: 0px 0px 10px;
+}
+
+.carolynpic {
+	height: 250px;
+	width: 250px;
+	background-size: 100%;
+	background-image: url(img/carolyn.png);	
+}
+.circles {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.circle {
+	height: 20px;
+	width: 20px;
+	border-radius: 10px;
+	margin: 10px;
+	background-color: rgb(225,225,225);
+}
+
+.circle1 {
+	height: 20px;
+	width: 20px;
+	border-radius: 10px;
+	margin: 10px;
+	background-color: rgb(160,190,225);
+}
+
+.underneath {
+	background-color: rgb(78,146,217);
+	display: grid;
+	grid-template-rows: 300px;
+	grid-template-columns: 400px 1fr 1fr 1fr 400px;
+	margin: 0;
+}
+
+.box {
+	border: 2px solid black;
+}
+
+#box1 {
+	background-image: url(img/vinicunca.png);
+	color: white;
+	text-align: center;
+}
+
+#box5 {
+	background-image: url(img/social.png);
+	background-size: 100%;
+	width: 50px;
+	padding: 100px;
+}
+
+
+
+
+
