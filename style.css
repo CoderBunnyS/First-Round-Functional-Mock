@@ -378,7 +378,7 @@ h3 {
 	.smallest {
 		display: flex;
 		justify-content: center;
-		align-content: center;
+		align-content: left;
 		flex-direction: column;
 	}
 	.full-screen {
@@ -386,6 +386,9 @@ h3 {
 	}
 	.small-screen {
 		width: 140px;
+	}
+	.smallestsocial {
+		background-image: url(img/socia.png);
 	}
 }
 
@@ -397,9 +400,16 @@ h3 {
 @media screen and (min-width: 768px) {
 	.smaller {
 		display: none;
+	}
 }
 
-
+@media 
+  (-webkit-min-device-pixel-ratio: 2), 
+  (min-resolution: 192dpi) { 
+  .img {
+    background-image: url(img/socia.png);
+  }
+}
 
 
 
