@@ -5,35 +5,43 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<div class="top">
-		<header>
-			<div class="header left">
-			 <a href="#"><img src="" alt="SnowMount"></a>
+	<div class="top change-small">
+		<div class="header">
+			<div class="headerleft hidden-small">
+				<a href="#"><img src="img/snowmountimage.png" alt="SnowMount"></a>
 			</div>
-			<div class="header right">
-			 <a href="#">Home</a>
-			 <a href="#">About</a>
-			 <a href="#">Contact</a>
-			 <a href="#">Say Hello</a>
+			<div class="headerright hidden-small">
+				<div class="middleright">
+				 <a id="Home" href="#">Home</a>
+				 <a href="#">About</a>
+				 <a href="#">Contact</a>
+				</div> 
+				<div class="farright">
+				 <a id="hello" href="#">Say Hello</a>
+				</div>
 			</div>
-		</header>
-		<div class="Wonder">
-			 <div class="Our Work">
-			 	<p>Our Work</p>
-			 </div> 
+		</div>
+		<div class="powdertext">
+			<div class="Wonder hidden-small"></div>
+			<div class="ourwork hidden-small">
+				<a href="#" target="_blank">Our Work</a>
+			</div>
+			<div class="smaller">
+				<a href="#" target="_blank">Snow Mount</a>
+			</div>
 		</div>
 	</div>
-	<div class="middletop">
+	<div class="middletop change-small">
 		<h1>About Us</h1>
 		<p>We are a family owned backcountry oriented ski resorted located in the heart of Montana.  We pride ourself in family owned and operated feel that you will never get with a large corporate mountain.  Enjoy the powder!</p>
 	</div>
-	<div class="middle">
+	<div class="middle change">
 		<h1>Our Work</h1>
 	    <div class="container">
 	        <div class="cottage"></div>
 	        <div class="wolf"></div>
 	        <div class="turndown"></div>
-	        <div class="turndowntext">
+	        <div class="turndowntext change-small">
 	        	<h1>Fly High</h1>
 	        	<p>Ride our off piste backcountry or hit the park to pracice your 360 turn downs and backflips. Don't be shy.  And if you are, cruise on piste!</p>
 	        	<a id="Check" href="#">Check it!</a>
@@ -43,24 +51,50 @@
 		</div>
 	</div>
 	<div class="bottom">
-		<h1>Testimonial</h1>
-		<div class="carolynpic"></div>
-		<div class="girldab"></div>
-		<p class="cc">Carolyn Clark</p>
-		<p>Big Sky is the most popular ski resort in Montana, and compared to the other Montana ski areas, the Big Sky Ski Resort has very well developed infrastructure and amenities. Nevertheless it’s still a far cry from some of the proper “world class” resorts that can be found elsewhere. </p>
+		<div class="topbottom">	
+			<h1>Testimonial</h1>
+		</div>
+		<div class="flexrow">
+			<div class="empty"></div>
+			<div class="carolyn">
+				<div class="carolynpic"></div>
+				<div class="girldab"></div>
+				<p class="cc">Carolyn Clark</p>
+				<div class="quotation change-small">
+					<div class="quoteimage" id="quote1"></div>
+					<p>SnowMount is the most popular ski resort in Montana, and compared to the other Montana ski areas, the SnowMount Ski Resort has very well developed infrastructure and amenities. Nevertheless it’s still a far cry from some of the proper “world class” resorts that can be found elsewhere. </p>
+					<div class="quoteimage" id="quote2"></div>
+				</div>
+			</div>
+			<div class="nextarrow">
+				<h1>></h1>
+			</div>
+		</div>
 		<div class="circles">
 			<div class="circle1"></div>
-	        <div class="circle"></div>
-	        <div class="circle"></div>
+		    <div class="circle"></div>
+		    <div class="circle"></div>
 		</div>
 	</div>
-	<div class="underneath">
-		<div class="box" id="box1">snow mount</div>
-		<div class="box" id="box2">2</div>
-		<div class="box" id="box3">3</div>
-		<div class="box" id="box4">4</div>
-		<div class="box" id="box5">5</div>
-
+	<div class="underneath smallest">
+		<div class="box" id="box1">
+			<div class="stackedsnowmount hidden-small"></div>
+		</div>
+		<div class="box" id="inside">
+			<h3>Location</h3>
+			<p>Middle of nowhere Montana</p>
+		</div>
+		<div class="box" id="inside">
+			<h3>Email</h3>
+			<p>powderdays@snowmount.com</p>
+		</div>
+		<div class="box" id="inside">
+			<h3>Phone</h3>
+			<p>1-800-123-4567</p>
+		</div>
+		<div class="box" id="box5">
+			<div class="social smaller"></div>
+		</div>
 	</div>
 </body>
 </html>

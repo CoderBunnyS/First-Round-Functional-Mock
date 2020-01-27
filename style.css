@@ -3,18 +3,124 @@ body {
 	font-family: Geneva, Helvetica, sans-serif;
 }
 
-header {
-	display: grid;
-	grid-template-columns: 2fr 1fr 1fr;
-	align-items: center;
+.header {
+	margin: 0px 30px 0 30px;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	color: white;
+	text-decoration: none;
+	font-size: 30px;
+	height: 100px;
+}
+
+.headerleft {
+	height: 100px;
+	margin-right: 0 200px 150px 10px;
+}
+
+.headerright {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	width: 670px;
+	font-size: 30px;
+}
+
+.middleright {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	flex-direction: row;
+	width: 510px;
+	margin: 0 30px 150px 100px;
+	padding-top: 10px;
+	font-size: 24px;
+}
+
+.farright {
+	width: 200px;
+	margin: 0;
+	font-size: 30px;
+}
+
+.headerright a {
+	text-decoration: none;
+	color: white;
+}
+
+#home {
+	text-decoration: underline;
+}
+
+#hello {
+	display:inline-block;
+	background-color: white;
+	text-align: center;
+	font-weight: bold;
+	font-size: 24px;
+	text-decoration: none;
+	color: rgb(78,146,217);
+	height: 45px;
+	width: 150px;
+	border-radius: 30px;
+	padding: 10px 20px 0 20px;
+}
+
+.wonder {
+	background-image: url(img/wonderfulworld.png);
+	background-repeat: no-repeat;
+	background-size: 85%;
+	width: 800px;
+	height: 500px;
 }
 
 .top {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 	background-image: url(img/alps-altitude-bird-s-eye-view-2013658.png);
 	background-position: center;
-	background-size: 100%;
+	background-repeat: no-repeat;
+	background-size: 110% cover;
 	height: 800px;
 	margin: 0px;
+	width: 100%;
+}
+
+.powdertext {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.ourwork a{
+	display:inline-block;
+	background-color: rgb(78,146,217);
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+	height: 40px;
+	width: 100px;
+	border-radius: 30px;
+	padding: 10px 20px 0 20px;
+}
+
+.smaller a{
+	display:inline-block;
+	background-color: rgb(78,146,217);
+	text-align: center;
+	font-weight: bold;
+	font-size: 40px;
+	text-decoration: none;
+	color: white;
+	height: 70px;
+	width: 250px;
+	border-radius: 50px;
+	padding: 10px 20px 0 20px;
 }
 
 .middletop {
@@ -22,7 +128,8 @@ header {
 	height: 220px;
 	color: white;
 	text-align: center;
-	font-size: 22px;
+	font-size: 24px;
+	text-overflow: ellipsis;
 	padding: 20px 150px 50px;
 }
 
@@ -94,6 +201,7 @@ h1 {
 	grid-row: 2 / span 2;
 	grid-column: 1 / span 2;
 	text-align: center;
+	text-overflow: ellipsis;
 	color: white;
 	font-size: 20px;
 	line-height: 40px;
@@ -124,16 +232,61 @@ h1 {
 	flex-direction: column;
 	margin: 50px 360px;
 	color: rgb(78,146,217);
-	border: 2px solid black;
+	/*border: 2px solid black;*/
 	padding: 0px 0px 10px;
+}
+
+.flexrow {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+.empty {
+	width: 126px;
+}
+
+.carolyn {
+	width: 500px;
 }
 
 .carolynpic {
 	height: 250px;
 	width: 250px;
+	margin: 0 125px 0 125px;
 	background-size: 100%;
 	background-image: url(img/carolyn.png);	
 }
+
+.quotation {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	font-style: 24px;
+	text-overflow: ellipsis;
+}
+
+.quoteimage {
+	height: 80px;
+	width: 160px;
+	background-size: 100%;	
+	background-image: url(img/quote.png);
+}
+
+#quote1 {
+	margin: 0 10px 100px 0;
+}
+
+#quote2 {
+	margin: 100px 0 0 10px;
+}
+
+.nextarrow {
+	padding: 0 0 0 100px;
+}
+
 .circles {
 	display: flex;
 	flex-direction: row;
@@ -158,28 +311,94 @@ h1 {
 
 .underneath {
 	background-color: rgb(78,146,217);
-	display: grid;
-	grid-template-rows: 300px;
-	grid-template-columns: 400px 1fr 1fr 1fr 400px;
-	margin: 0;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	height: 500px;
+	padding: 70px;
+}
+
+h3 {
+	font-size: 15px;
+}
+
+#inside {
+	font-size: 12px;
 }
 
 .box {
-	border: 2px solid black;
+	width: 250px;
+	height: 200px;
+	/*border: 1px solid black;*/
+	margin: 0 15px;
+	color: white;
 }
 
 #box1 {
-	background-image: url(img/vinicunca.png);
-	color: white;
-	text-align: center;
+ 	width: 200px;
+	margin: 10px 0;
+	padding-left: 150px;
+	padding-right: 30px;
+	display: flex;
+  	justify-content: center;
 }
 
 #box5 {
-	background-image: url(img/social.png);
-	background-size: 100%;
-	width: 50px;
-	padding: 100px;
+	width: 450px;
+	margin: 10px;
+	padding-top: 50px;
+	display: flex;
+  	justify-content: center;
 }
+
+.stackedsnowmount {
+	width: 170px;
+	background-size: 100%;
+	background-image: url(img/stackedsnowmount.png);
+	background-repeat: no-repeat;
+}
+
+.social {
+	width: 180px;
+	background-size: 100%;
+	background-image: url(img/social.png);
+	background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 768px) {
+	.hidden-small {
+		display: none;
+	}
+	.change-small {
+		background-size: cover
+		padding: 10px 0 20px;
+		font-size: 12px;
+		text
+	}
+	.smallest {
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		flex-direction: column;
+	}
+	.full-screen {
+		display: none;
+	}
+	.small-screen {
+		width: 140px;
+	}
+}
+
+@media screen and (max-width:; 576px) {
+	.hidden-small {
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.smaller {
+		display: none;
+}
+
 
 
 
