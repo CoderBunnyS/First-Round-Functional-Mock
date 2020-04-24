@@ -1,4 +1,4 @@
-## Matt's Project1 reactive website
+## Matt's Project1 responsive website
 
 ### Build a Responsive Website!
 
