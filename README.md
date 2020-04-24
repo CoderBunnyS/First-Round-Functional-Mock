@@ -6,6 +6,8 @@ For my first General Assembly project, I built a responsive website using HTML a
 
 ### Instructions
 
+I built a static website from [this mock](https://drive.google.com/open?id=1uzgEYU-cx6OK9xF9BOKX9QAkksUdeuZZ).  I had to copy the style to the T.  
+
 To check out my website, head to this [github page](https://vmipfdr.github.io/First-Round-Functional-Mock/)
 
 or find it here:
